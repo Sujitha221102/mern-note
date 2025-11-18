@@ -113,7 +113,7 @@ const CreateNotes = ({
           </Typography>
           <Input.TextArea
             value={description}
-            onChange={(e) => setDescription(e.target.value)}
+            onChange={(e) => setDescription(e?.target?.value)}
           ></Input.TextArea>
         </div>
       </Modal>

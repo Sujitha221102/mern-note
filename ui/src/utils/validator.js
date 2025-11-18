@@ -7,3 +7,9 @@ export function formatUTCToLocal(utcTime) {
     timeStyle: 'medium',
   });
 }
+
+export function capitalizeFirstLetter(text) {
+  if (!text) return '';
+
+  return text.charAt(0).toUpperCase() + text.slice(1);
+}
